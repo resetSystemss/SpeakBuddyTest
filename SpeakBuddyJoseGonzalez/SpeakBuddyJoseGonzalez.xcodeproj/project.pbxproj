@@ -14,6 +14,11 @@
 		88455F092B280DF500AFB837 /* SpeakBuddyJoseGonzalezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88455F082B280DF500AFB837 /* SpeakBuddyJoseGonzalezTests.swift */; };
 		88455F132B280DF500AFB837 /* SpeakBuddyJoseGonzalezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88455F122B280DF500AFB837 /* SpeakBuddyJoseGonzalezUITests.swift */; };
 		88455F152B280DF500AFB837 /* SpeakBuddyJoseGonzalezUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88455F142B280DF500AFB837 /* SpeakBuddyJoseGonzalezUITestsLaunchTests.swift */; };
+		88BBC9AE2B2921D6005FDC8B /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBC9AD2B2921D6005FDC8B /* SectionView.swift */; };
+		88BBC9B02B2921F8005FDC8B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBC9AF2B2921F8005FDC8B /* HeaderView.swift */; };
+		88BBC9B22B292216005FDC8B /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBC9B12B292216005FDC8B /* FooterView.swift */; };
+		88BBC9B42B29223E005FDC8B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBC9B32B29223E005FDC8B /* Utilities.swift */; };
+		88BBC9B62B2922CC005FDC8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBC9B52B2922CC005FDC8B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		88455F0E2B280DF500AFB837 /* SpeakBuddyJoseGonzalezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakBuddyJoseGonzalezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88455F122B280DF500AFB837 /* SpeakBuddyJoseGonzalezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyJoseGonzalezUITests.swift; sourceTree = "<group>"; };
 		88455F142B280DF500AFB837 /* SpeakBuddyJoseGonzalezUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyJoseGonzalezUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88BBC9AD2B2921D6005FDC8B /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		88BBC9AF2B2921F8005FDC8B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		88BBC9B12B292216005FDC8B /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		88BBC9B32B29223E005FDC8B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		88BBC9B52B2922CC005FDC8B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				88455EF72B280DF400AFB837 /* SpeakBuddyJoseGonzalezApp.swift */,
-				88455EF92B280DF400AFB837 /* ContentView.swift */,
+				88BBC9AC2B2921AE005FDC8B /* Views */,
 				88455EFB2B280DF500AFB837 /* Assets.xcassets */,
 				88455EFD2B280DF500AFB837 /* Preview Content */,
 			);
@@ -125,6 +135,19 @@
 				88455F142B280DF500AFB837 /* SpeakBuddyJoseGonzalezUITestsLaunchTests.swift */,
 			);
 			path = SpeakBuddyJoseGonzalezUITests;
+			sourceTree = "<group>";
+		};
+		88BBC9AC2B2921AE005FDC8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88455EF92B280DF400AFB837 /* ContentView.swift */,
+				88BBC9B52B2922CC005FDC8B /* Constants.swift */,
+				88BBC9B32B29223E005FDC8B /* Utilities.swift */,
+				88BBC9AD2B2921D6005FDC8B /* SectionView.swift */,
+				88BBC9AF2B2921F8005FDC8B /* HeaderView.swift */,
+				88BBC9B12B292216005FDC8B /* FooterView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88BBC9B42B29223E005FDC8B /* Utilities.swift in Sources */,
 				88455EFA2B280DF400AFB837 /* ContentView.swift in Sources */,
 				88455EF82B280DF400AFB837 /* SpeakBuddyJoseGonzalezApp.swift in Sources */,
+				88BBC9AE2B2921D6005FDC8B /* SectionView.swift in Sources */,
+				88BBC9B62B2922CC005FDC8B /* Constants.swift in Sources */,
+				88BBC9B22B292216005FDC8B /* FooterView.swift in Sources */,
+				88BBC9B02B2921F8005FDC8B /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
