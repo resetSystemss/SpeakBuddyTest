@@ -12,14 +12,16 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             gradientElements
-                .opacity(0.25)
                 .ignoresSafeArea()
-            Section {
-                SectionView()
-            } header: {
-               HeaderView()
-            } footer: {
-               FooterView()
+            VStack() {
+                CancelButtonView()
+                Section {
+                    SectionView()
+                } header: {
+                    HeaderView()
+                } footer: {
+                    FooterView()
+                }
             }
         }
     }

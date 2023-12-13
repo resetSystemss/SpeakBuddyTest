@@ -18,7 +18,7 @@ struct FooterView: View {
             }
             .frame(height: 56)
             .frame(maxWidth: .infinity)
-            .background(.pink)
+            .background(Color.init(hex: Colors.blue))
             .clipShape(RoundedRectangle(cornerRadius: 220, style: .continuous))
             .padding(.horizontal, 30)
             .onTapGesture {
@@ -27,6 +27,9 @@ struct FooterView: View {
         }
     }
 }
+
+//background: linear-gradient(0deg, #3BA7FF, #3BA7FF),
+//linear-gradient(0deg, #FFFFFF, #FFFFFF);
 
 #Preview {
     FooterView()
